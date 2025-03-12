@@ -3,7 +3,7 @@ name: multiple jobs
 on:
   workflow_dispatch:
 
-job:
+jobs:
   job-1:
     runs-on: ubuntu-latest
     steps:
