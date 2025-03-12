@@ -5,6 +5,12 @@ on:
  pull_request:
   branches:
    -  main
+ push:
+  paths:
+   - 'code/**'
+   - '.github/workflows/hello-world.yml'
+  branches:
+   - main
  # push:
  # branches:
  #  - main
